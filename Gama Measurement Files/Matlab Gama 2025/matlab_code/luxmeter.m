@@ -8,8 +8,8 @@ instrreset                  % Ensure all ports are put in reset state (http://ww
 
 %Create a serial object 
 
-%ser = serial('COM1');        % Windows port style
-ser = serial('/dev/ttyUSB0');   % Linux port style
+ser = serial('COM4');        % Windows port style
+%ser = serial('/dev/ttyUSB0');   % Linux port style
 
 % set object properties
 
